@@ -1,7 +1,7 @@
 /*This is a style sheet for the Client Blog Assignment
 the client is Phoenix Unachukwu; the topic is: Emerald Jewelry*/
 body {
-    background: url(images/backgroundsingle.jpg) no-repeat top right fixed black;
+    background: url("images/backgroundsingle.jpg") no-repeat top right fixed black;
     margin: auto;
     width: 50%;
     font-family: 'Imprima', sans-serif;
