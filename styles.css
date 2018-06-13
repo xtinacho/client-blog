@@ -1,10 +1,11 @@
 /*This is a style sheet for the Client Blog Assignment
 the client is Phoenix Unachukwu; the topic is: Emerald Jewelry*/
 body {
-    background: url("images/backgroundsingle.jpg") no-repeat top right fixed black;
+    background: url("images/backgroundsingle.jpg") no-repeat top right fixed #000000;
     margin: auto;
-    width: 50%;
-    font-family: 'Imprima', sans-serif;
+    width: 60%;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 14pt;
     color: #b3b3b3;
 }
 }
@@ -14,24 +15,44 @@ body {
 }
 h1 {
     text-align: center;
-    font-family: 'Cantata One', serif;
-    font-size: 30pt;
-    color: #44ad44;
     margin: 10px;
-    letter-spacing: 0.6em;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 45pt;
+    font-weight: 100;
+    color: #44ad44;
+    letter-spacing: 0.05em;
+    
 }
 h2 {
-    text-align: center;
-    font-family: 'Cantata One', serif;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 25pt;
+    font-weight: 100;
     color: #44ad44;
-    letter-spacing: 0.1em;
 }
 h3 {
     text-align: center;
     letter-spacing: 0.043em;
 }
+h4{
+    letter-spacing: 0.03em;
+}
 .body {
+    background: #09110a;
     padding: 45px;
+    margin: 30px;
+    opacity: 0.6;
+    -moz-border-radius-topleft: 35px;
+    -webkit-border-top-left-radius: 35px;
+    border-top-left-radius: 35px;
+    -moz-border-radius-topright: 35px;
+    -webkit-border-top-right-radius: 35px;
+    border-top-right-radius: 35px;
+    -moz-border-radius-bottomright: 35px;
+    -webkit-border-bottom-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    -moz-border-radius-bottomleft: 35px;
+    -webkit-border-bottom-left-radius: 35px;
+    border-bottom-left-radius: 35px;
 }
 img {
   float: right; 
@@ -52,11 +73,11 @@ img.ring {
     margin-right: 0;
 }
 a {
-    background: #b3b3b3;
+    background: #313135;
     opacity: 0.9;
-    border: 3px #b3b3b3 solid;
+    border: 3px #313135 solid;
     padding: 15px;
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     text-decoration: none;
     color: #000000;
     margin: 8px;
@@ -91,7 +112,7 @@ a:hover {
     background: #ffffff;
     border: 3px #ffffff solid;
     padding: 15px;
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     text-decoration: none;
     color: #000000;
 }
