@@ -1,0 +1,97 @@
+/*This is a style sheet for the Client Blog Assignment
+the client is Phoenix Unachukwu; the topic is: Emerald Jewelry*/
+body {
+    background: url(images/backgroundsingle.jpg) no-repeat top right fixed black;
+    margin: auto;
+    width: 50%;
+    font-family: 'Imprima', sans-serif;
+    color: #b3b3b3;
+}
+}
+.banner {
+    padding: 15px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    font-size: 30pt;
+    color: #44ad44;
+    margin: 10px;
+    letter-spacing: 0.6em;
+}
+h2 {
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    color: #44ad44;
+    letter-spacing: 0.1em;
+}
+h3 {
+    text-align: center;
+    letter-spacing: 0.043em;
+}
+.body {
+    padding: 45px;
+}
+img {
+  float: right; 
+  padding: 20px ;
+  margin-right: 50px; 
+}
+.content{
+    text-align: center;
+}
+p {
+    margin: 20px 50px;
+    text-align: justify;
+}
+img.ring {
+    float:left;
+    padding: 20px ;
+    margin-left: 50px;
+    margin-right: 0;
+}
+a {
+    background: #b3b3b3;
+    opacity: 0.9;
+    border: 3px #b3b3b3 solid;
+    padding: 15px;
+    font-family: 'Imprima', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    margin: 8px;
+    -moz-border-radius-topleft: 17px;
+    -webkit-border-top-left-radius: 17px;
+    border-top-left-radius: 17px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomleft: 17px;
+    -webkit-border-bottom-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+a.right {
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-topright: 17px;
+    -webkit-border-top-right-radius: 17px;
+    border-top-right-radius: 17px;
+    -moz-border-radius-bottomright: 17px;
+    -webkit-border-bottom-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+a:hover {
+    background: #ffffff;
+    border: 3px #ffffff solid;
+    padding: 15px;
+    font-family: 'Imprima', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
