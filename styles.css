@@ -72,7 +72,7 @@ img.ring {
     margin-left: 50px;
     margin-right: 0;
 }
-a:link {
+a:active {
     background: #313135;
     opacity: 0.9;
     border: 3px #313135 solid;
