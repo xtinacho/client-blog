@@ -80,6 +80,7 @@ a {
     font-family: 'Nanum Myeongjo', serif;
     text-decoration: none;
     color: #000000;
+    transition: 3s;
     margin: 8px;
     -moz-border-radius-topleft: 17px;
     -webkit-border-top-left-radius: 17px;
