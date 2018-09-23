@@ -3,7 +3,8 @@ the client is Phoenix U; the topic is: Emerald Jewelry*/
 body {
     background: url("images/backgroundsingle.jpg") no-repeat top right fixed #000000;
     margin: auto;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     max-width: 80%;
     font-family: 'Nanum Myeongjo', serif;
     font-size: 14pt;
